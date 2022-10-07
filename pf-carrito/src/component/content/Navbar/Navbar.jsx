@@ -8,7 +8,7 @@ import Cardwidget from '../CarWidget/cardwidget';
 
 
 const Navbar = ({contador}) => {
-  const listDropdown = ["Hombre", "Mujer", "Niños", " Bebes"]
+  const listDropdown = ["Pc Escritorio", "Notebook", "Tablet", "Accesorios"]
     return (
         <>
                       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">

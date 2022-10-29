@@ -7,7 +7,7 @@
         "modelo": "Y510P",
         "precio": 60000,
         "stock": 30,
-        "img": "notebook-lenovo.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/carrito-react-machuca-cristian.appspot.com/o/notebook-lenovo.jpg?alt=media&token=4c522f26-4a99-48a8-8a41-7103335232a4"
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "modelo": "Mi-9",
         "precio": 35000,
         "stock": 20,
-        "img": "xiaomi-mi-9.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/carrito-react-machuca-cristian.appspot.com/o/xiaomi-mi-9.jpg?alt=media&token=d3c1f523-b016-4a78-8a6e-973451a37e54"
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
         "modelo": "50D1U",
         "precio": 57000,
         "stock": 15,
-        "img": "smart-tv-novatech.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/carrito-react-machuca-cristian.appspot.com/o/smart-tv-novatech.jpg?alt=media&token=4cdc8356-ef1a-43e4-9ea9-72611fd4988a"
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "modelo": "C40",
         "precio": 8000,
         "stock": 30,
-        "img": "camara-iqual.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/carrito-react-machuca-cristian.appspot.com/o/camara-iqual.jpg?alt=media&token=dcecc2f1-4836-4765-ac23-a13a670755b1"
     },
     {
         "id": 5,
@@ -47,7 +47,7 @@
         "modelo": "G502",
         "precio": 1400,
         "stock": 7,
-        "img": "mouse-logitech.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/carrito-react-machuca-cristian.appspot.com/o/mouse-logitech.jpg?alt=media&token=7cc41602-f37d-42ff-843f-7507c1aa0c3f"
     },
     {
         "id": 6,
@@ -57,7 +57,7 @@
         "modelo": "Pulse Escape",
         "precio": 4000,
         "stock": 20,
-        "img": "motorola-pulse.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/carrito-react-machuca-cristian.appspot.com/o/motorola-pulse.jpg?alt=media&token=992b98e0-13e9-4363-bf00-e11fec153ed2"
     },
     {
         "id": 7,
@@ -67,7 +67,7 @@
         "modelo": "X Silver",
         "precio": 250000,
         "stock": 10,
-        "img": "iphone-x.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/carrito-react-machuca-cristian.appspot.com/o/iphone-x.jpg?alt=media&token=76712386-321d-4db8-bbbe-fb2d767e88a3"
     },
     {
         "id": 8,
@@ -77,7 +77,7 @@
         "modelo": "32 Gb",
         "precio": 45000,
         "stock": 30,
-        "img": "apple-tv.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/carrito-react-machuca-cristian.appspot.com/o/apple-tv.jpg?alt=media&token=f90ab274-c151-493b-9b82-453fb5c6c43e"
     },
     {
         "id": 9,
@@ -87,7 +87,7 @@
         "modelo": "SPK200",
         "precio": 34000,
         "stock": 21,
-        "img": "parlante-kalley.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/carrito-react-machuca-cristian.appspot.com/o/parlante-kalley.png?alt=media&token=dc922f81-b07a-4642-9b9e-2004f80fe2bf"
     },
     {
         "id": 10,
@@ -97,7 +97,7 @@
         "modelo": "Air",
         "precio": 13000,
         "stock": 25,
-        "img": "mac-air.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/carrito-react-machuca-cristian.appspot.com/o/mac-air.jpg?alt=media&token=e599987c-e643-483a-a592-8dc66bbaef7c"
     }
     
 ]

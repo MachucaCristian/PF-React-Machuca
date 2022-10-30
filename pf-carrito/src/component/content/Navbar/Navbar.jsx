@@ -1,5 +1,6 @@
 
 import { Link } from 'react-router-dom';
+import Cotizacionmoneda from '../../layouts/cotizacionmoneda/cotizacionmoneda';
 
 import "../../../style/NavFoter.css";
 
@@ -10,32 +11,46 @@ import Cardwidget from '../CardWidget/cardwidget';
 
 
 const Navbar = ({contador}) => {
-  const listDropdown = ["Hombre", "Mujer", "Niños", " Bebes"]
+  const listDropdown = ["Informatica", "Celulares", "TV y Audio"]
     return (
         <>
-                      <nav className="navbar navbar-expand-lg navbar-dark ">
-                          <div className="container-fluid">
-                            <img src="..\..\..\img\oip.jpg"  alt="" />
-                            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" _mstaria-label={320099}>
-                               <span className="navbar-toggler-icon" />
-                            </button>
-                            <div className="collapse navbar-collapse" id="navbarColor01">
-                              <ul className="navbar-nav me-auto">
-                                  <Secciones/>
-                                  <Dorpdown  lista= {listDropdown}/> 
-                              </ul>
-                    
-                            </div>
-                            <ul className="navbar-nav me-auto">
-                              <li className="nav-item"><Link className="nav-link active" to={"/carrito"}>{<Cardwidget/>}</Link>
+                      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                              <div className="container-fluid align-items-start">
+                                      
+                                      <div className="collapse navbar-collapse" id="navbarColor02">
+                                        <ul className="navbar-nav  fs-5  ">
+                                         
+                                          <Cotizacionmoneda className="text-center"/>
+                                          
+                                        </ul>
+                                        </div>
+                                  </div>
+                              </nav>
+                      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                              <div className="container-fluid">
+                                      
+                                      <div className="collapse navbar-collapse" id="navbarColor02">
+                                        <ul className="navbar-nav me-auto fs-5 text ">
+                                          <Secciones/>
+                                          <Dorpdown  lista= {listDropdown}/> 
+                                          
+                                          
+                                        </ul>
+                                        
+                                        </div>
+                                            <ul className="navbar-nav me-auto ">
+                                              <li className="nav-item"><Link className="nav-link active" to={"/carritocompleto"}>{<Cardwidget/>}</Link>
+                                                          
+                                              </li>
+                                                          
+                                            </ul>
+                                        </div>
+                                        
+                                        
+                                      
+                            </nav>
+                            
                               
-                              </li>
-                              
-                            </ul>
-                            </div>
-    
-                      </nav>
-  
   
         </>
     );

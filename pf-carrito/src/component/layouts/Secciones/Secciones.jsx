@@ -5,7 +5,7 @@ const Paginas = () => {
     return (
         <>
             <li className="nav-item">
-                <Link className="nav-link active" to={"/"}>Home</Link>
+                <Link className="nav-link active" to={"/"}>HOME</Link>
                        
             </li>
             

@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { BsFillBasketFill } from "react-icons/bs";
+import { MdAddShoppingCart } from "react-icons/md";
 
 
 
 const Cardwidget = () => {
     return (
         <>
-       <BsFillBasketFill  size="30px" color="red" />
+       <MdAddShoppingCart  size="30px" color="red" />
             
         </>
     );

@@ -33,9 +33,10 @@ const ItemDetail = ({producto, stock, }) => {
                     <div className="card-body">
                         <h5 className="card-title">{producto[1].nombre}</h5>
                         
-                        <p className="card-text">Talles: {producto[1].talle}</p>
+                        <p className="card-text">Marca: {producto[1].marca} </p>
+                         <p className="card-text">Modelo: {producto[1].modelo} </p>
                         <p className="card-text">Stock: {producto[1].stock}</p>
-                        <h5 className="card-text">Precio:  $ {producto[1].precio}</h5>
+                        <h5 className="card-text">Precio:  U$S {producto[1].precio}</h5>
 
                         <div className='d-flex justify-content-evenly '>
                         

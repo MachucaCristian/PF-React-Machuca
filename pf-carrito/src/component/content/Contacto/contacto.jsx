@@ -17,13 +17,13 @@ const Contacto = () => {
         <>
         <div className="container">
             <form onSubmit={consultarForm} ref={datosFormulario}>
-            <div className="mb-3">
-                    <label htmlFor="nombre" className="form-label text-white">Nombre </label>
+            <div className="mb-2">
+                    <label htmlFor="nombre" className="form-label text-dark">Nombre </label>
                     <input type="nombre" className="form-control " name="nombre"  />
                     
                 </div>
                 <div className="mb-3">
-                    <label htmlFor="email" className="form-label text-white">Email </label>
+                    <label htmlFor="email" className="form-label text-dark">Email </label>
                     <input type="email" className="form-control" name="email"  />
                     
                 </div>
@@ -35,7 +35,7 @@ const Contacto = () => {
                 </div>
                 <div class="d-grid gap-2 col-6 mx-auto">
                 
-                <Link className="btn text-dark bg-white" to={"/confirmaConsulta"}>Enviar Consulta</Link>
+                <Link className="btn btn-dark " to={"/confirmaConsulta"}>Enviar Consulta</Link>
                 
                 
                 </div>

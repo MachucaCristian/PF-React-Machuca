@@ -14,7 +14,7 @@ const Carritocompleto = () => {
                             <div className='container text-center'>
                                 
                                <button className='btn btn-dark' onClick={() => clearCarrito (producto)}>Vaciar Carrito</button>
-                                 <Link className="btn btn-primary" to={"/chekout"}>Enviar Pedido</Link>
+                                 <Link className="btn btn-primary" onClick={() => clearCarrito (producto)} to={"/chekout"}>Enviar Pedido</Link>
                                  </div>
             
         </>
